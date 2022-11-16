@@ -12,10 +12,21 @@ export default function App() {
   return (
     <div className="App">
       <div className="sidebar">
-        <Link to={"/"}>Platform Summary</Link>
-        <Link to={"/gabby"}>Gabby Summary</Link>
-        <Link to={"/voice"}>Voice Analytics Summary</Link>
-        <Link to={"/rpa"}>RPA Summary</Link>
+        <div className="title">
+          <h2>DASH Utility</h2>
+        </div>
+        <Link to={"/"} className="sidebarItem">
+          Platform Summary
+        </Link>
+        <Link to={"/gabby"} className="sidebarItem">
+          Gabby Summary
+        </Link>
+        <Link to={"/voice"} className="sidebarItem">
+          Voice Analytics Summary
+        </Link>
+        <Link to={"/rpa"} className="sidebarItem">
+          RPA Summary
+        </Link>
       </div>
       <Routes>
         <Route path="/" element={<Summary />}></Route>

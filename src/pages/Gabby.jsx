@@ -1,7 +1,7 @@
 import React from "react";
 
 const Gabby = () => {
-  return <div>Gabby</div>;
+  return <div className="summary">Gabby</div>;
 };
 
 export default Gabby;

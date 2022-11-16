@@ -1,22 +1,55 @@
-a {
-  text-decoration: none;
-}
-
 .App {
   height: 100vh;
   width: 100vw;
   display: flex;
 }
 
+.title {
+  color: white;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  /* background-color: #eb9928; */
+  padding-top: 10px;
+}
+
 .sidebar {
-  width: 20vw;
+  position: relative;
+  width: 15vw;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
+  justify-content: center;
+  background-color: #2f4858;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.sidebarItem {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 10px;
+  background-color: #5f788a;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.sidebarItem:hover {
+  background-color: white;
+  color: black;
+}
+
+.sidebar:n1:hover {
+  background-color: yellow;
+  color: black;
 }
 
 .summary {
-  width: 80vw;
+  width: 90vw;
 }
 
 .header {

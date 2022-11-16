@@ -1,7 +1,7 @@
 import React from "react";
 
 const VA = () => {
-  return <div>VA</div>;
+  return <div className="summary">VA</div>;
 };
 
 export default VA;
